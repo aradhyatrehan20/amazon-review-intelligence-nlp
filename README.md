@@ -105,42 +105,31 @@ Understanding how sentiment influences review usefulness.
 
 ### ⭐ Rating Distribution
 
-![Rating Distribution](visualizations/rating_distribution.png)
-
-Shows the distribution of customer ratings across 1–5 stars.
+![Rating Distribution](images/rating_distribution.png)
 
 ---
 
 ### 🤖 RoBERTa Sentiment Distribution
 
-![RoBERTa Sentiment Distribution](visualizations/roberta_sentiment_distribution.png)
-
-Displays the overall sentiment predicted by the RoBERTa transformer model.
+![RoBERTa Sentiment Distribution](images/roberta_sentiment_distribution.png)
 
 ---
 
 ### ⚖️ VADER vs RoBERTa Comparison
 
-![Sentiment Comparison](visualizations/sentiment_comparison.png)
-
-Compares sentiment classifications produced by the lexicon-based VADER model and the transformer-based RoBERTa model.
+![Sentiment Comparison](images/sentiment_comparison.png)
 
 ---
 
 ### ⭐ Rating vs RoBERTa Sentiment
 
-![Rating vs Sentiment](visualizations/rating_vs_sentiment.png)
-
-Illustrates how customer star ratings align—or differ—from AI-predicted sentiment, highlighting rating-sentiment mismatches.
+![Rating vs Sentiment](images/rating_vs_sentiment.png)
 
 ---
 
 ### 📏 Review Length Analysis
 
-![Review Length Analysis](visualizations/review_length_analysis.png)
-
-Compares the average review length across sentiment categories to understand how customer feedback varies.
-
+![Review Length Analysis](images/review_length_analysis.png)
 
 # 📈 Key Insights
 

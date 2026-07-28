@@ -102,26 +102,30 @@ Understanding how sentiment influences review usefulness.
 
 ---
 
+
+
 # 📈 Key Insights
 
-*(To be updated with final analysis results)*
+- The dataset shows a strong positive rating bias, with **6,397 out of 10,000 reviews (64%) receiving a 5-star rating**, indicating that most customers expressed positive experiences.
 
-- Customer ratings alone may not fully represent customer sentiment.
-- Transformer-based models identify contextual dissatisfaction hidden in reviews.
-- Negative reviews often provide detailed explanations of customer issues.
-- Combining rating data with NLP sentiment provides a more complete view of customer experience.
+- VADER sentiment analysis classified **8,785 reviews as positive, 1,001 as negative, and 214 as neutral**, highlighting an overall positive customer sentiment trend.
 
+- RoBERTa sentiment analysis identified hidden dissatisfaction within highly-rated reviews. Among **5-star reviews, 145 were classified as negative and 241 as neutral**, showing that numerical ratings alone may not fully capture customer opinions.
+
+- Lower-rated reviews showed stronger negative sentiment patterns. For example, among **1-star reviews, 720 out of 891 reviews were classified as negative by RoBERTa**, demonstrating a strong relationship between rating scores and textual sentiment.
+
+- Review length varied significantly across sentiment categories. Negative reviews had an average length of **446 characters**, compared with **405 characters for positive reviews**, suggesting dissatisfied customers often provide more detailed feedback.
 ---
 
-# 💼 Business Impact
+# 💼 Business Recommendations
 
-This project demonstrates how NLP can help businesses:
+- Combine star ratings with NLP-based sentiment analysis to gain a more complete understanding of customer satisfaction.
 
-- Monitor customer satisfaction at scale
-- Automatically categorize feedback
-- Identify recurring product issues
-- Improve customer experience strategies
-- Make data-driven product decisions
+- Monitor negative sentiment in highly-rated reviews to identify hidden product issues that traditional rating analysis may overlook.
+
+- Prioritize analysis of longer negative reviews, as they often contain detailed explanations of customer pain points.
+
+- Use automated sentiment classification to categorize large volumes of customer feedback and support faster product improvement decisions.
 
 ---
 
